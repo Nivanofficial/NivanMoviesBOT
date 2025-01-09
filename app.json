@@ -1,9 +1,9 @@
 {
-    "name": "PROFESSOR-BOT",
-    "description": "The Telegram Autofilter Bot",
+    "name": "Nivan Brother",
+    "description": "The Telegram Autofilter Bot By Nivan",
     "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
     "keywords": ["Telegram", "auto-filter", "MrMKN"],
-    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
+    "repository": "https://github.com/Nivanofficial/NivanMoviesBOT",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
@@ -57,8 +57,8 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
-            "required": false
+            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @ZinkMovies ❱ • ────➤\n┣ ▫️ @ZinkMoviesofficial\n┣ ▫️ @ZinkMoviesofficial\n╰─────── • ◆ • ───────➤",
+            "required": true
         },
         "DATABASE_URL": {
             "description": "mongoDB URI.",
@@ -76,8 +76,8 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
-            "required": false
+            "value": "@ZinkMovieso",
+            "required": true
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
@@ -127,7 +127,7 @@
         "WELCOM_TEXT": {
             "description": "your group welcome text keyword({user} = joined use & {chat} = your chat name",
             "value": "Hᴇʏ {user} 💞\nWᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.\n\nꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ",
-            "required": false
+            "required": true
         },
         "BUTTON_LOCK_TEXT": {
             "description": "button lock text [User = {query}]",
